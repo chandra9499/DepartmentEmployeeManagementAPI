@@ -13,7 +13,6 @@ namespace Models
         public int DepartmentId { get; set; }
         public string DepartmentName { get; set; } = null!;
         public string DepartmentLocation { get; set; } = null!;
-
         public virtual ICollection<Employee> Employees { get; set; }
     }
 }
